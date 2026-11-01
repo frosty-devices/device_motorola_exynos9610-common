@@ -311,6 +311,9 @@ PRODUCT_PACKAGES += \
     libOMX.Exynos.WMV.Decoder
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-frosty
+
 PRODUCT_PACKAGES += \
     ApertureOverlayCommon \
     CarrierConfigResCommon \
